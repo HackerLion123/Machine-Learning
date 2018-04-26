@@ -1,0 +1,8 @@
+
+
+we cant use regular expression since html elements may have different structures across sites.
+		
+			it is good for trival tasks
+			or automatically generated code
+
+kodos - python regular expression GUI #do not use it it looks stupid

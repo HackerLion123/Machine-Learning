@@ -17,6 +17,7 @@ def Euclian_distance(prefs,person1,person2):
 	#if no rating in common 
 	if(len(si) == 0): return 0
 	
+	#squared error cost function
 	sq = sum([pow(prefs[person1][movie] - prefs[person2][movie],2)
 	for movie in prefs[person1] 
 		if movie in prefs[person2]])          #a list is created using for loop

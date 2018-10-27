@@ -6,3 +6,22 @@ we cant use regular expression since html elements may have different structures
 			or automatically generated code
 
 kodos - python regular expression GUI #do not use it it looks stupid
+
+
+Python modules used for scraping
+		lxml
+		requests
+		mechanize
+		BeautifulSoup
+
+Install FireBug or Chrome DOM inspector.
+
+Categories
+
+	-one page that you need to process
+
+	-an entire website you have to crawl and harvest data from
+
+	-a set of forms that give you access to web service
+
+	-any of these in a on-going fashion

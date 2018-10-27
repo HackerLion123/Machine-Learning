@@ -1,3 +1,4 @@
+
 #Dictonary for a list of movies and it's critics
 
 critics = {'Me':{'Dark Knight':4.5,'Mean Girls':4.0,'Grown Up':5.0,'Justice League':4.8,'Adult world':3.5,'Midnight in Paris':4.5},'Bruce':{'Dark Knight':5,'Mean Girls':3.5,'Grown Up':4.0,'Justice League':4.0,'Adult world':3.6,'Midnight in Paris':3.0},'Wolverine':{'X-men':4.5,'Mean Girls':3.5,'Grown Up':5.0,'Jaws':4.6,'Terminator 2':4.5,'Midnight in Paris':4.5},'Charles':{'X-men':4.5,'Twilight':4.5,'Rick and Morty':5,'Powerpuff Girls':4},'Jack Matthews': {'Lady in the Water': 3.0, 'Snakes on a Plane': 4.0,
@@ -126,5 +127,5 @@ def calculateSimilarItems(prefs,n = 10):
 		result[item] = scores
 	return result
 
-print calculateSimilarItems(critics)
+print getRecommendations(critics,"Me")
 

@@ -22,10 +22,10 @@ class KNN():
 		best_index = 0
 		for i in range(1,len(self.X_train)):
  			dist = euc(row,self.X_train[i])
-			if dist < best_dist:
-				best_dist = dist
-				best_index = i
-		return self.y_train[best_index]
+ 			if dist < best_dist:
+ 				best_dist = dist
+ 				best_index = i
+ 		return self.y_train[best_index]
 
 from sklearn import datasets
 iris = datasets.load_iris()

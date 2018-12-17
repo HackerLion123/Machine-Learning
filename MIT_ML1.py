@@ -1,4 +1,6 @@
 import numpy as np
+
+
 class Goal_Tree:
 	def predict(X_test,y_test):
 		for i in X_test:

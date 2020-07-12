@@ -55,8 +55,7 @@ def main():
 	links = get_links(URL)
 	#print(len(links))
 	index = random.randint(0,len(links))
-	#print(index)
-
+	
 	get_image("https://images.pexels.com/photos/1076805/pexels-photo-1076805.jpeg?cs=srgb&amp;dl=colorful-colourful-confetti-1076805.jpg&amp;fm=jpg")
 	set_background(LOC+'.jpg')
 

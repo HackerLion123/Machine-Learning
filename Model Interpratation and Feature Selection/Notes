@@ -1,0 +1,12 @@
+1] Drop Feature and Run the model
+From this we can see how important the feature is for the prediction.
+
+
+cons:
+* it can't deal with correlated features well.
+
+* Very slow
+
+2] SHAP value
+
+the collective SHAP values can show how much each predictor contributes, either positively or negatively, to the target variable.
